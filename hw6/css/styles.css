@@ -24,9 +24,6 @@
     margin: 0 auto;
     position: relative;
     margin-bottom: 12px;
-    /* border-bottom-color: rgba(70, 163, 88, 0.5);
-    border-bottom-width: 0.3px;
-    border-bottom-style: solid; */
 }
 
 .center-body{
@@ -39,22 +36,30 @@
 }
 
 .navigation {
-    display: inline-block;    
-    position: relative;
+    display: inline-block;   
     margin-top: 8px;
     padding-left: 229px;
 }
 
+.navigation li {
+    display: inline-block;
+}
+
 .navigation-text{
     display: inline-block;
-    position: relative;
     margin-right: 50px;
     font-size: 16px;
     font-family: ceraPro-Regular;
     color: #3D3D3D;
     line-height: 20.11px;
     font-weight: 400;
+    cursor: pointer;
 }
+
+.navigation-text:active {
+    font-family: ceraPro-Medium;
+    border-bottom: 2px solid rgba(70, 163, 88, 0.5);     
+  }
 
 .log_btn {
     display: inline-block;
@@ -136,7 +141,6 @@
 }
 
 .foto{
-    float: right;
     position: absolute;
     right: 0;
     top: 0;
