@@ -67,17 +67,20 @@
     cursor: pointer;
     position: absolute;
     right: 0;
+    font-family: ceraPro-Regular; 
 }
 
 .logout-icon{
-    width: 16.28px; 
-    height: 15.42px;
+    width: 20px; 
+    height: 20px;
     margin-right: 4px;
 }
 
 .shopnow-btn {
     display: inline-block;
     background-color: #46A358;
+    text-transform: uppercase;
+    font-family: ceraPro-Medium; 
     margin-top: 44px;
     margin-left: 41px; 
     color: #fff;
