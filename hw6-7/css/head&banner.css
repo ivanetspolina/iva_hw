@@ -17,7 +17,6 @@
 .navigation {
     display: inline-block;   
     margin-left: 225px;
-    height: 45px;
 }
 
 .item {
@@ -39,7 +38,7 @@
     display: block;      
     text-shadow: 0.8px 0.8px #3D3D3D; 
     padding-bottom: 24.5px;
-    box-shadow: 0 3px rgba(70, 163, 88, 0.5);
+    box-shadow: 0 3px rgb(70, 163, 88);
   }
 
 .log_btn {
@@ -65,7 +64,7 @@
 }
 
 
-.center-body{
+.center-banner{
     max-width: 1200px;
     height: 450px;
     margin: 0 auto;
@@ -134,4 +133,20 @@
     top: 0;
     height: 450;
     width: 507;
+}
+
+.search-svg{
+    display: inline-block;
+    margin-left: 200px;
+    vertical-align: middle;
+    background-color: transparent; 
+    cursor: pointer;
+}
+
+.trash-svg{
+    display: inline-block;
+    margin-left: 26px;
+    vertical-align: middle;
+    background-color: transparent; 
+    cursor: pointer;
 }

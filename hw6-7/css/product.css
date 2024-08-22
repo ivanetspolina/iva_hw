@@ -1,0 +1,111 @@
+.block-product{
+    width: 840px;
+    margin-top: 36px;
+    float: right;    
+}
+
+.block-product-flex{
+    display: flex;
+    flex-grow: 3;
+    flex-wrap: wrap;
+    gap: 70px 33px;
+}
+
+.product{
+    position: relative;
+    height: 347px;
+    width: 258px;
+}
+
+.plants-photo-backgr{
+    height: 300px;
+    width: 258px;
+    background-color: rgba(251, 251, 251, 1);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+}
+
+.prod-name{
+    display: block;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: "ceraPro-Regular";
+    color: rgba(61, 61, 61, 1);
+}
+
+.prod-cost{
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: "ceraPro-Regular";
+    color: rgba(70, 163, 88, 1);
+}
+
+.old-price{
+    color: rgba(203, 203, 203, 1);
+    text-decoration: line-through;
+    margin-left: 16px;
+}
+
+/* .sale-banner{
+    position: absolute;   
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    top: 14px;
+    width: 80px;
+    height: 29px;
+    background-color: rgba(70, 163, 88, 1);    
+    z-index: 10;
+}
+
+.sale-banner-text{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    font-family: "ceraPro-Regular";    
+} */
+
+.page-numb{
+    display: flex;
+    float: right;
+    align-items: flex-end;
+}
+
+.page-list{
+    display: inline-flex; 
+} 
+
+.numb-list{
+    min-width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;    
+    border-radius: 4px;
+    border: 1px solid rgba(229, 229, 229, 1);
+    background-color: transparent;    
+    font-family: "ceraPro-Regular"; 
+    color: rgba(61, 61, 61, 1);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px; 
+    margin-top: 90px;
+    
+}
+
+.numb-list:active {    
+    background-color: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    border: none;
+} 

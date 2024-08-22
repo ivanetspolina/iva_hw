@@ -1,0 +1,47 @@
+.sort-product{
+    width: 838px;   
+    position: relative;
+    white-space: nowrap; 
+    float: right;
+}
+
+.sort-catygory{
+    display: inline-block;
+    text-transform: capitalize;   
+    font-size: 0;
+}
+
+.item-categ{
+    display: inline-block;
+    margin-right: 37px;
+}
+
+.sort-by{
+    display: inline-block;
+    margin-left: 351px;
+}
+
+.nav-cat2{
+    font-family: "ceraPro-Regular"; 
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(61, 61, 61, 1);    
+} 
+
+.nav-cat22{
+    margin-left: 5px;
+}
+
+.item-categ .nav-cat2:active {
+    display: block;      
+    color: rgba(70, 163, 88, 1);
+    text-shadow: 0.8px 0.8px rgba(70, 163, 88, 1); 
+    padding-bottom: 5.9px;
+    box-shadow: 0 2px rgb(70, 163, 88);
+  }
+
+  .stroke1{
+    margin-left: 4px;
+    background-color: white;
+  }
