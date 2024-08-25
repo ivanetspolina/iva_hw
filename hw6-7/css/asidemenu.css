@@ -4,6 +4,12 @@
    width: 1200px;
 }
 
+.cat-menu-prod::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
 .aside-menu{
    float: left;
    width: 310px;
@@ -18,27 +24,31 @@
     line-height: 16px;
     margin-left: 18.3px;
     padding-top: 14px;
+    margin-bottom: 7px;
  }
 
- .cat-menu{
+ .cat-menu a{
    font-family: "ceraPro-Medium"; 
    color: rgba(61, 61, 61, 1);
    font-weight: 400;
-   font-size: 14px;
+   font-size: 15px;
    line-height: 40px;
    text-transform: capitalize;   
-   margin-top: 7px;
    padding-left: 30px;
  }
+
+ .item-cat-menu a:hover{
+   color: #46A358;
+   font-weight: 700;
+}
 
  .super-sale-banner{
   margin-top: 377px;
   margin-left: -29px;
+  cursor: pointer;
  }
 
  .prod-numb{
    margin-right: 23px;
    float: right;
  }
-
-

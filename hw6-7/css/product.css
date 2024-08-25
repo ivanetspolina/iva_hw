@@ -1,6 +1,6 @@
 .block-product{
     width: 840px;
-    margin-top: 36px;
+    margin-top: 32px;
     float: right;    
 }
 
@@ -55,13 +55,14 @@
 
 .sale-banner{
     position: absolute;   
-    top: 14px;
+    top: 15.5px;
     display: flex;
     justify-content: center; 
     align-items: center;     
     width: 80px;
     height: 29px;
     background-color: rgba(70, 163, 88, 1);  
+    z-index: 10; 
 }
 
 .sale-banner-text{

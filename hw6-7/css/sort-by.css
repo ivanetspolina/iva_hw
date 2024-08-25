@@ -33,6 +33,12 @@
     margin-left: 5px;
 }
 
+.item-categ .nav-cat2{
+    display: block;      
+    text-shadow: none;
+    padding-bottom: 5.9px; 
+    box-shadow: 0 2px transparent; 
+}
 .item-categ .nav-cat2:active {
     display: block;      
     color: rgba(70, 163, 88, 1);
