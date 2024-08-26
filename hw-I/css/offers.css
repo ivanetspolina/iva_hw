@@ -9,8 +9,9 @@
 
 .off-card{   
     margin-right: 28px;
-    width: 586px;      
     position: relative;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 .off-card:last-child{
@@ -21,7 +22,6 @@
     display: flex;            
     align-items: center; 
     justify-content:flex-end;
-    align-self: flex-end;   
     position: absolute;
     bottom: 0; 
     left: 0;
