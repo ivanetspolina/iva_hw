@@ -44,7 +44,7 @@
 }
 
 
-.navigation-text:active {
+.navigation-text:hover {
     display: block;      
     text-shadow: 0.8px 0.8px #3D3D3D; 
     padding-bottom: 24.5px;
