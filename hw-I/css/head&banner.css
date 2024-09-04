@@ -9,6 +9,12 @@
     box-shadow: 0 0.3px rgba(70, 163, 88, 0.5);
 }
 
+.center-head::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .logo{
     display: inline-block;
     vertical-align: middle;
@@ -17,11 +23,14 @@
 .navigation {
     display: inline-block;   
     margin-left: 225px;
+    position: relative;
 }
 
 .item {
     display: inline-block;
     margin-right: 50px;
+    position: relative;    
+    min-width: auto;
 }
 
 .navigation-text{
@@ -33,6 +42,7 @@
     font-weight: 400;
     cursor: pointer;
 }
+
 
 .navigation-text:active {
     display: block;      
