@@ -47,9 +47,18 @@
 .navigation-text:hover {
     display: block;      
     text-shadow: 0.8px 0.8px #3D3D3D; 
-    padding-bottom: 24.5px;
-    box-shadow: 0 3px rgb(70, 163, 88);
-  }
+}
+
+.navigation-text:hover::after,
+.item:hover > .navigation-text::after  {
+    content: "";
+    display: block;      
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: rgb(70, 163, 88);
+    top: 43px;
+}
 
 .log_btn {
     display: inline-block;
