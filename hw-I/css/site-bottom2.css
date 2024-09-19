@@ -1,0 +1,45 @@
+.bottom2{
+    display: inline-flex;
+    width: 100%;    
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);   
+    font-family: "ceraPro-Regular";
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: rgba(61, 61, 61, 1);    
+}
+
+.bottom2-img{
+    margin-top: 27px;
+    margin-bottom: 26px;
+    margin-left: 23px;    
+}
+
+.bott-adress{
+    display: inline-flex;
+    margin-top: 25px;
+    margin-bottom: 19px;
+    margin-left: 87px;
+}
+
+.icon-adress{    
+    margin-right: 9px;
+}
+
+.bott-email{
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: 70px;
+}
+
+.icon-email{
+    margin-right: 7px;
+}
+
+.bott-phnumb{
+    margin: 33px 22px 33px 72px;
+}
+
+.icon-phnumb{
+    margin-right: 5px;
+}

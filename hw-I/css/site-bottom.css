@@ -1,0 +1,39 @@
+.site-bottom{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;    
+}
+
+.bott-text{
+    display: block;
+}
+
+.bott-title{
+    font-family: "ceraPro-Bold";
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 700;
+    color: rgba(61, 61, 61, 1);
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+h3.bott-title{
+    text-transform:none;
+}
+
+.bottom4{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: "ceraPro-Regular";
+    color: rgba(61, 61, 61, 1);
+}
+
+
+

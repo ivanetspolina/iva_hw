@@ -1,0 +1,88 @@
+.bottom1{
+    display: flex;
+    width: 100%;
+    background-color: rgba(251, 251, 251, 1);
+    padding: 24px 25px;        
+    position: relative;
+}
+
+.bott-card{
+    display: block;
+    margin-right: 67px;   
+}
+
+.bott-picture-container{
+    display: flex;
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.bott-form-join{
+    display: flex;
+    margin-top: 19px;
+    margin-bottom: 17px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    
+}
+
+.join-news{
+    margin-top: 11px;
+}
+
+.email-form{
+    width: 100%;    
+    
+}
+
+.form-input{
+    outline: none;
+    padding: 12px 86px 12px 11px;
+    border-radius: 6px;
+    font-family: "ceraPro-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(172, 172, 172, 1);
+    width: 120%;
+}
+
+.join-news-btn{    
+    background-color: rgba(70, 163, 88, 1);
+    border-radius: 0px 6px 6px 0px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: "ceraPro-Bold";
+    padding: 12px 25px 12px 26px;    
+    cursor: pointer;
+    margin-left: 11px;
+}
+
+.join-news-text{
+    display: block;
+    font-family: "ceraPro-Regular";
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+}
+
+.bott1-text-desc{
+    font-family: "ceraPro-Regular";
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+}
+
+.bott1-text-title{
+    font-family: "ceraPro-Bold";
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: 700;
+    color: rgba(61, 61, 61, 1);
+    margin-bottom: 9px;
+    text-transform: capitalize;
+}
